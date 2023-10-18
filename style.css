@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+h1{
+ 
+  
+    color: green;
+    
+
+
+}
+.para{
+    
+    margin-bottom: 1em;
+    font-size: 20px;
+    color: white;
+    
+   
+}
+#snake-board{
+    border: 3px solid white;
+    border-radius: 20px;
+   
+}
+#score{
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+/* RESPONSIVE MOBILE*/
+@media (max-width: 427px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+
+    #snake-board {
+        border-width: 2px;
+    }
+
+    #score {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+
+    #snake-board {
+        border-width:0px;
+        height: 300px;
+        
+    }
+
+    #score {
+        font-size: 12px;
+    }
+}
